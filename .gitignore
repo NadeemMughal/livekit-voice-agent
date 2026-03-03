@@ -1,0 +1,31 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Environment variables (contains API keys — never commit)
+.env
+
+# Node
+node_modules/
+frontend/node_modules/
+token-server/node_modules/
+
+# Build output
+frontend/dist/
+
+# Claude Code local memory
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
